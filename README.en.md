@@ -23,9 +23,77 @@ This repository is the public place to report problems and suggest improvements.
 
 You can write in **English or Japanese**.
 
+## Examples
+
+Use these as a guide to filling in the forms. They are all **made up**.
+
+<details>
+<summary>🐞 Bug report example</summary>
+
+> **Title:** [Bug] Moving a slider on a phone shifts the page sideways
+>
+> **What happened?**
+> In solo mode, dragging the fourth question's slider with a finger moves the whole page a little to the side.
+>
+> **What did you expect?**
+> Only the slider moves; the page stays still.
+>
+> **Steps to reproduce**
+> 1. Open the site on a phone
+> 2. Press "Judge solo, right now"
+> 3. Drag the fourth slider to the right
+>
+> **Where?** Solo mode
+> **Device and browser:** iPhone 15 · Safari 18
+> **Language and theme:** English · Light
+
+</details>
+
+<details>
+<summary>💡 Idea or improvement example</summary>
+
+> **Title:** [Idea] Let the facilitator set a scoring deadline
+>
+> **What problem would this solve?**
+> Team members don't know when they need to score by, so the verdict takes days.
+>
+> **Your idea**
+> When opening a case, let the facilitator set a deadline, and show it on the case room and in the reminder message.
+>
+> **Type:** New feature
+> **Anything else?** Closing the case automatically at the deadline would be even better.
+
+</details>
+
+<details>
+<summary>🌐 Copy or translation example</summary>
+
+> **Title:** [Copy] "In session" on the case room is unclear
+>
+> **Language:** English
+> **Where is the text?** The top line of the case room (`$ case #… · in session`)
+>
+> **Current text:** in session
+> **Suggested text:** open for scoring
+> **Why?** A first-time visitor can't tell what "in session" means they should do.
+
+</details>
+
+<details>
+<summary>❓ Question example</summary>
+
+> **Title:** [Question] Can the weights be changed later?
+>
+> **Your question**
+> I opened a case and now want to change the weights. Can I still change them after someone has submitted their scores?
+>
+> **Privacy check:** ✅ I didn't include case links, facilitator links, real names or confidential information.
+
+</details>
+
 ## Please don't post private information
 
-Issues are **public**. Don't paste case links, admin links, real names or anything confidential. A case link lets anyone who has it see that case.
+Issues are **public**. Don't paste case links, facilitator links, real names or anything confidential. A case link lets anyone who has it see that case.
 
 - **Privacy or data request** (for example, deleting a case): open a *Question* that says only what you need, with no links or personal details. We'll arrange a private way to continue. Remember that the facilitator can delete a case at any time, and every case is deleted automatically 30 days after its last activity.
 - **Security issue:** don't open an issue. Follow [SECURITY.en.md](SECURITY.en.md).

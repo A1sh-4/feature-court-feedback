@@ -6,8 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting! Issues are **public**, so please don't paste case links, admin links, real names or anything confidential.
-        報告ありがとうございます。issueは**公開**されます。ケースのリンク、管理用リンク、実名、機密情報は貼らないでください。
+        Thanks for reporting! Issues are **public**, so please don't paste case links, facilitator links, real names or anything confidential.
+        報告ありがとうございます。issueは**公開**されます。事件のリンク、進行役用リンク、実名、機密情報は貼らないでください。
   - type: textarea
     id: what
     attributes:
@@ -37,8 +37,8 @@ body:
       label: Where? / どの画面ですか？
       options:
         - Landing page / トップページ
-        - Solo mode / ひとりで審理
-        - Team case (member) / チームのケース（参加者）
+        - Solo mode / ひとり審理
+        - Team case (member) / チームの事件（参加者）
         - Facilitator dashboard / 進行役ダッシュボード
         - Weights / 重みの調整
         - Legal pages / 規約・ポリシー

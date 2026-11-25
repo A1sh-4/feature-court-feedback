@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         **Privacy or data request?** Say only what you need (for example, "please delete a case"). Don't include links or personal details; AISH will arrange a private way to continue.
-        **プライバシー・データの依頼ですか？** 用件だけを書いてください（例：「ケースを削除してほしい」）。リンクや個人情報は書かないでください。非公開でやり取りする方法をご案内します。
+        **プライバシー・データの依頼ですか？** 用件だけを書いてください（例：「事件を削除してほしい」）。リンクや個人情報は書かないでください。非公開でやり取りする方法をご案内します。
   - type: textarea
     id: question
     attributes:
@@ -19,5 +19,5 @@ body:
     attributes:
       label: Privacy check / 確認
       options:
-        - label: I didn't include case links, admin links, real names or confidential information. / ケースのリンク、管理用リンク、実名、機密情報は含めていません。
+        - label: I didn't include case links, facilitator links, real names or confidential information. / 事件のリンク、進行役用リンク、実名、機密情報は含めていません。
           required: true
