@@ -1,0 +1,40 @@
+name: 🌐 Copy or translation / 文言・翻訳
+description: Japanese or English text that is wrong, unclear or unnatural. / 日本語・英語の文章の誤り、わかりにくさ、不自然さ。
+title: "[Copy] "
+labels: ["documentation"]
+body:
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Language / 言語
+      options:
+        - 日本語
+        - English
+        - Both / 両方
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where is the text? / どこの文章ですか？
+      placeholder: e.g. About page, "How the score works" / 例：評価方法ページの「スコアの仕組み」
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text / 現在の文章
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text / 修正案
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? / 理由
+    validations:
+      required: false

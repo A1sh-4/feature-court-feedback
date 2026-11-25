@@ -1,0 +1,42 @@
+name: 💡 Idea or improvement / アイデア・改善の提案
+description: A new feature, a change to scoring or weights, or a design suggestion. / 新機能、採点や重みの変更、デザインの提案。
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are very welcome. It helps most to describe the problem first, then your suggestion.
+        アイデア大歓迎です。まず困っていること、次に提案の順で書いていただけると助かります。
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve? / どんな課題を解決しますか？
+      placeholder: When my team ... / チームで〜するとき…
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / 提案の内容
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type / 種類
+      options:
+        - New feature / 新機能
+        - Scoring, questions or weights / 採点・質問・重み
+        - Design or animation / デザイン・アニメーション
+        - Accessibility / アクセシビリティ
+        - Other / その他
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Anything else? / その他
+      description: Alternatives you considered, examples from other tools, sketches. / 検討した別案、他のツールの例、スケッチなど。
+    validations:
+      required: false

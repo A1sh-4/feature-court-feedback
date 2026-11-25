@@ -1,0 +1,65 @@
+name: 🐞 Bug report / 不具合の報告
+description: Something is broken, looks wrong, or doesn't work on your device. / 動かない、表示がおかしい、端末で使えない。
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Issues are **public**, so please don't paste case links, admin links, real names or anything confidential.
+        報告ありがとうございます。issueは**公開**されます。ケースのリンク、管理用リンク、実名、機密情報は貼らないでください。
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / 何が起きましたか？
+      description: Describe the problem. A screenshot helps a lot (hide any names first). / 問題の内容を書いてください。スクリーンショットがあると助かります（名前などは隠してください）。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / 本来はどうなるはずでしたか？
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順
+      placeholder: |
+        1. Open the landing page / トップページを開く
+        2. Click "Open the case" / 「事件を開く」を押す
+        3. ...
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where? / どの画面ですか？
+      options:
+        - Landing page / トップページ
+        - Solo mode / ひとりで審理
+        - Team case (member) / チームのケース（参加者）
+        - Facilitator dashboard / 進行役ダッシュボード
+        - Weights / 重みの調整
+        - Legal pages / 規約・ポリシー
+        - About / 評価方法
+        - Other / その他
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser / 端末とブラウザ
+      placeholder: e.g. iPhone 15, Safari / 例：Windows 11、Chrome
+    validations:
+      required: true
+  - type: dropdown
+    id: lang
+    attributes:
+      label: Language and theme / 言語とテーマ
+      multiple: true
+      options:
+        - 日本語
+        - English
+        - Light / ライト
+        - After hours / アフターアワーズ

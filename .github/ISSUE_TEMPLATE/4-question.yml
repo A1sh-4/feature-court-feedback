@@ -1,0 +1,23 @@
+name: ❓ Question / 質問
+description: Anything else, including privacy or data requests (no personal details). / その他の質問。プライバシー・データの依頼もこちら（個人情報は書かないでください）。
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Privacy or data request?** Say only what you need (for example, "please delete a case"). Don't include links or personal details; AISH will arrange a private way to continue.
+        **プライバシー・データの依頼ですか？** 用件だけを書いてください（例：「ケースを削除してほしい」）。リンクや個人情報は書かないでください。非公開でやり取りする方法をご案内します。
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question / 質問内容
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check / 確認
+      options:
+        - label: I didn't include case links, admin links, real names or confidential information. / ケースのリンク、管理用リンク、実名、機密情報は含めていません。
+          required: true
